@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="bg-white text-black">
+
+    <div class="w-full min-h-screen px-5 py-6 md:px-10 md:py-10 mx-auto max-w-[2400px]">
+        
+        <!-- Navigation -->
+        <header class="grid grid-cols-2 md:grid-cols-12 gap-4 text-[15px] leading-none mb-32 md:mb-64">
+            
+            <!-- Logo: Far Left -->
+            <div class="col-span-1 md:col-span-3 tracking-tight text-[#3b82f6] font-medium">
+                Playto
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="md:hidden col-span-1 text-right font-medium text-[#475569]">Menu</div>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:block md:col-start-4 md:col-span-3">
+                <a href="#" class="hover:text-[#3b82f6] transition-colors text-[#475569]">Platform</a>
+            </div>
+
+            <div class="hidden md:block md:col-start-7 md:col-span-3">
+                <a href="#" class="hover:text-[#3b82f6] transition-colors text-[#475569]">Community</a>
+            </div>
+
+            <div class="hidden md:block md:col-start-10 md:col-span-2">
+                <button class="hover:text-[#3b82f6] transition-colors text-[#475569]">Login</button>
+            </div>
+
+            <!-- Contact: Far Right -->
+            <div class="hidden md:block md:col-start-12 md:col-span-1 text-right">
+                <a href="#" class="text-[#3b82f6] hover:opacity-80 transition-opacity font-medium">Book Demo</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Text Section -->
+            <section class="mb-32 md:mb-52">
+                <h1 class="text-2xl md:text-4xl lg:text-[2.65rem] leading-[1.15] tracking-tight font-normal max-w-full md:max-w-[78%] lg:max-w-[72%] text-black">
+                    Playto turns community building into revenue. We are the all-in-one mobile-first platform for creators, educators, and leaders to launch courses, host memberships, and monetize their expertise without the complexity of fragmented tools.
+                </h1>
+            </section>
+
+            <!-- Project Section -->
+            <section class="w-full">
+                <!-- Project Info Header -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-y-2 md:gap-y-0 mb-5 text-[15px]">
+                    
+                    <!-- Title: Aligns with 'Projects' (Col 4) -->
+                    <div class="md:col-start-4 md:col-span-3 font-medium text-[#3b82f6]">
+                        Mobile-First Monetization
+                    </div>
+
+                    <!-- Description: Aligns with 'Profile' (Col 7) -->
+                    <div class="md:col-start-7 md:col-span-6 lg:col-span-5 text-[#475569] leading-normal">
+                        Empowering over 100K communities with seamless course delivery, subscription management, and instant payouts designed for the modern creator economy.
+                    </div>
+                </div>
+
+                <!-- Project Image -->
+                <div class="grid grid-cols-1 md:grid-cols-12">
+                    <!-- Image: Aligns with 'Projects' (Col 4) and spans to end -->
+                    <div class="md:col-start-4 md:col-span-9">
+                        <img src="https://placehold.co/1600x900/3b82f6/ffffff?text=Playto+Interface" alt="Playto Platform" class="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-700 block aspect-[16/9] md:aspect-[16/8.5] border border-gray-100">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer implied area -->
+        <footer class="mt-32 pt-8 border-t border-gray-100 grid grid-cols-1 md:grid-cols-12 gap-4 text-[13px] text-[#475569]">
+            <div class="md:col-span-3">© 2025 Playto</div>
+            <div class="md:col-start-4 md:col-span-3">The Future of Building Community</div>
+            <div class="md:col-start-12 md:col-span-1 text-right italic">Sanhik Roy Industries</div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
